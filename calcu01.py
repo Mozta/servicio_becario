@@ -28,4 +28,4 @@ elif(y==3):
   resultado= a2*b2
   print("El resultado es:",resultado)
 else:
-  print("no valido")
+  print("no valido xD")
