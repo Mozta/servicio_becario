@@ -1,0 +1,63 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled7.ipynb",
+      "version": "0.3.2",
+      "provenance": [],
+      "collapsed_sections": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "[View in Colaboratory](https://colab.research.google.com/github/Mozta/servicio_becario/blob/feature-JassielCortez/Calcular%20dias%20prueba)"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "P8xCFc6m28J6",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 129
+        },
+        "outputId": "6221099f-dc06-4480-9b8a-906824a80e37"
+      },
+      "cell_type": "code",
+      "source": [
+        "import datetime\n",
+        "from datetime import date\n",
+        "d=date.today()\n",
+        "#Buscar fecha actual\n",
+        "hoy=datetime.date.today()\n",
+        "#imprimir la fecha\n",
+        "print(hoy.strftime('%d/%m/%y'))\n",
+        "fecha=int(input((\"Introduce año de nacimiento\"))\n",
+        "\n"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-2-ddff5e959b83>\"\u001b[0;36m, line \u001b[0;32m8\u001b[0m\n\u001b[0;31m    fecha=int(input((\"Introduce año de nacimiento\"))\u001b[0m\n\u001b[0m                                                    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m unexpected EOF while parsing\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
